@@ -8,3 +8,17 @@ git config --global user.name "MohdYousuf.Dev"
 git config --global user.email "xyz"
 
 ssh-keygen // genrate public/private key
+
+git add .
+git add <file name >
+
+git commit -m "message"
+git branch -M main
+git status
+git branch 
+git push -u origin main
+
+git branch testbranch1
+git checkout testbranch1
+
+ls -lart
