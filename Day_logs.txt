@@ -36,3 +36,7 @@ git diff
 git status -s
 
 touch .gitignore
+git checkout -b <name
+
+git remote -v
+git remote set-url origin git@github.com:MohdYousufDev/Learing_Git.git
