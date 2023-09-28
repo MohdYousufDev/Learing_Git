@@ -1,0 +1,10 @@
+Day 1 :
+
+commands used : 
+
+git clone 
+git init
+git config --global user.name "MohdYousuf.Dev"
+git config --global user.email "xyz"
+
+ssh-keygen // genrate public/private key
