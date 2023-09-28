@@ -18,6 +18,10 @@ git status
 git branch 
 git push -u origin main
 
+
+git rm // delete it 
+git rm -- cached  // delete form staging 
+
 git branch testbranch1
 git checkout testbranch1
 
@@ -29,3 +33,6 @@ git log
 git log -p -2
 
 git diff
+git status -s
+
+touch .gitignore
