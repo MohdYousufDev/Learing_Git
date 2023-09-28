@@ -27,3 +27,5 @@ ls -lart
 
 git log
 git log -p -2
+
+git diff
