@@ -21,4 +21,9 @@ git push -u origin main
 git branch testbranch1
 git checkout testbranch1
 
+touch samplt.txt
+
 ls -lart
+
+git log
+git log -p -2
