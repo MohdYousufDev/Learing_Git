@@ -1,1 +1,3 @@
  Using normal git commands 
+
+ git clone: Clones a Git repository from a remote source to your local machine, creating a copy of the entire project.
