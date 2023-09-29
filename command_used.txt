@@ -1,3 +1,51 @@
  Using normal git commands 
 
  git clone: Clones a Git repository from a remote source to your local machine, creating a copy of the entire project.
+
+git init: Initializes a new Git repository in the current directory, setting up the necessary configuration and data structures for version control.
+
+git config --global user.name "MohdYousuf.Dev": Sets your global Git username, associating it with your commits.
+
+git config --global user.email "xyz": Sets your global Git email address, which is used to identify you as the author of commits.
+
+ssh-keygen: Generates a pair of SSH (Secure Shell) keys, typically used for secure authentication when interacting with remote Git repositories.
+
+git add .: Adds all modified and untracked files in the current directory to the staging area, preparing them for a commit.
+
+git add <file name>: Adds a specific file to the staging area, allowing you to include it in the next commit.
+
+git commit -m "message": Records the changes in the staging area as a new commit with a descriptive message.
+
+git branch -M main: Renames the default branch from "master" to "main" in your Git repository.
+
+git status: Shows the current status of your Git working directory, indicating which files are modified or staged.
+
+git branch: Lists all branches in your Git repository, highlighting the current branch.
+
+git push -u origin main: Pushes your local changes to a remote repository (typically on a Git hosting service like GitHub) and sets up a tracking relationship for the "main" branch.
+
+git rm: Deletes a file from both your working directory and the Git repository.
+
+git rm --cached: Removes a file from the staging area but keeps it in your working directory.
+
+git checkout -b <name>: Creates and checks out a new branch with the specified name.
+
+touch sample.txt: Creates an empty file named "sample.txt" in the current directory.
+
+ls -lart: Lists files and directories in the current directory, with details and sorted by modification time in reverse order.
+
+git log: Displays a chronological list of commits in the repository, showing commit hashes, authors, dates, and commit messages.
+
+git log -p -2: Shows the last two commits and the differences (patch) introduced by each commit.
+
+git diff: Displays the differences between the working directory and the most recent commit.
+
+git status -s: Provides a shorter, more concise summary of the current Git repository status.
+
+touch .gitignore: Creates a new .gitignore file, which is used to specify files and directories that should be ignored by Git.
+
+git remote -v: Lists the remote repositories associated with your Git project, showing their URLs.
+
+git remote set-url origin git@github.com:MohdYousufDev/Learing_Git.git: Changes the URL of the remote named "origin" to use SSH for authentication when interacting with the remote Git repository.
+
+These Git commands and actions are essential for managing and collaborating on projects using Git version control. 🚀🔗
